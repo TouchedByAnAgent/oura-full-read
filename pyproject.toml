@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oura-full-read"
+version = "0.1.0"
+description = "Full Bluetooth and heart-rate reader utilities for Oura and standard BLE HR devices."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bleak>=0.22",
+]
+
+[project.scripts]
+oura-full-read = "oura_full_read.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
