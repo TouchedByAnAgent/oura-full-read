@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.jpg" alt="Glowing amber and magenta line-art of a plain smart ring emitting radio ripples and a heartbeat waveform that flows into a stack of data layers." width="100%"></p>
+
 # Oura Full Read
 
 This is a separate `src` package for direct Bluetooth inspection and heart-rate reading.
