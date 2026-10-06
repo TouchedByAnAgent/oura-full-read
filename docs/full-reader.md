@@ -14,7 +14,6 @@ It is intentionally separate from `standalone/src/oura_ble_control`. The earlier
 ## Install
 
 ```bash
-cd full_reader
 python -m pip install -e .
 ```
 
