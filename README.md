@@ -2,7 +2,7 @@
 
 # Oura Full Read
 
-Command-line utilities for direct Bluetooth inspection and heart-rate reading, for Oura rings and standard BLE heart-rate monitors. Early release (version 0.1.0); requires Python 3.10 or newer and the `bleak` library.
+Command-line utilities for direct Bluetooth inspection and heart-rate reading, for Oura rings and standard BLE heart-rate monitors. Version 0.1.0; requires Python 3.10 or newer and the `bleak` library.
 
 It supports two heart-rate paths:
 
