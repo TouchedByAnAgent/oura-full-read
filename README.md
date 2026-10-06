@@ -2,7 +2,7 @@
 
 # Oura Full Read
 
-This is a separate `src` package for direct Bluetooth inspection and heart-rate reading.
+Command-line utilities for direct Bluetooth inspection and heart-rate reading, for Oura rings and standard BLE heart-rate monitors. Early release (version 0.1.0); requires Python 3.10 or newer and the `bleak` library.
 
 It supports two heart-rate paths:
 
@@ -13,8 +13,9 @@ The Oura ring does not expose its own heart rate through the standard BLE Heart 
 
 ## Install
 
+From a clone of this repository:
+
 ```bash
-cd full_reader
 python -m pip install -e .
 ```
 
